@@ -1,0 +1,52 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "designation": "Ordinateur DELL 14",
+      "prix": "200000",
+      "quantite": 10,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 2,
+      "designation": "Ordinateur HP",
+      "prix": 22000,
+      "quantite": 11,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 3,
+      "designation": "Imprimanre DELL",
+      "prix": 12000,
+      "quantite": 9,
+      "selected": true,
+      "available": false
+    },
+    {
+      "id": 4,
+      "designation": "Imprimante HP",
+      "prix": 18000,
+      "quantite": 12,
+      "selected": false,
+      "available": false
+    },
+    {
+      "id": 7,
+      "designation": "Ordinateur Mac Book Pro 2020",
+      "prix": 350000,
+      "quantite": 50,
+      "selected": true,
+      "available": false
+    },
+    {
+      "designation": "Souris HP Sans Fil",
+      "prix": "2500",
+      "quantite": "050",
+      "selected": false,
+      "available": true,
+      "id": 8
+    }
+  ]
+}

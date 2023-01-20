@@ -1,0 +1,50 @@
+
+<br>
+<div class="container border" *ngIf="produitFormGroup">
+    <br>
+    <form [formGroup]="produitFormGroup">
+        
+        <div class="mb-3 cacher">
+            <label class="form-label" >Identifiant du produit</label>
+            <input formControlName="id" type="text" class="form-control">
+        </div>
+        
+        <div class="mb-3">
+            <label class="form-label">Désignation du produit</label>
+            <input formControlName="designation" type="text" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Prix du produit</label>
+            <input formControlName="prix" type="text" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Quantité du produit</label>
+            <input formControlName="quantite" type="text" class="form-control">
+        </div>
+
+        <div class="mb-3 form-check">
+            <input formControlName="selected" type="checkbox" class="form-check-input">
+            <label class="form-check-label" for="exampleCheck1">Selectionné le produit?</label>
+        </div>
+
+        <div class="mb-3 form-check">
+            <input formControlName="available" type="checkbox" class="form-check-input">
+            <label class="form-check-label" for="exampleCheck1">Le produit et-il disponible?</label>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-auto">
+                <button (click)="onEditProduit()"  type="submit" class="btn btn-primary">Modifier</button>
+            </div>
+            <div class="col-auto">
+                <button class="btn btn-warning" routerLink="/produits">Annuler</button>
+            </div>
+        </div>
+        
+    </form>
+    <br>
+</div>
